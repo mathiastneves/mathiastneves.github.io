@@ -1,6 +1,115 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ea5f880abd.js" crossorigin="anonymous"></script>
+    <title>Mathias</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-name"><a href="#top" class="nav-link">Mathias Neves</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#talks" class="nav-link">Talks</a></li>
+        </ul> 
+    </nav>
+    <section class="intro" id="top">
+        <img class="blob" src="./images/blob-haikei.svg">
+        <h1 class="heading">
+            <span class="intro-small">Creative</span></br>
+            <span class="intro-big">SEO</span>
+            <span class="intro-small">&</span></br>
+            <span class="intro-big">DEVELOPER</span>
+        </h1>
+        <p class="bio">Hi, I'm Mathias! An engineer turned SEO turned developer.
+            I'm passionate about mental health, which is reflected on my coding projects and my creative writing for kids.
+            When I'm not coding, you will find me knitting or spending time with my son.</p>
+    </section>
+    <img class="waves-top" src="./images/waves.svg" id="projects"> 
+    <section class="projects">
+        <h2 class="sec-heading">PROJECTS</h2>
+        <div class="project">
+            <div class="project-images">
+                <img class="main-project-img" src="images/feelings-screenshot.jpg">
+                <div class="img-1"></div>
+                <div class="img-2"></div>
+                <div class="img-3"></div>
+            </div>
+            <div class="project-copy">
+                <h3 class="project-name">FEELINGS</h3>
+                <p class="project-description">Based on the work of Dr. Gloria Wilcox, this app allows users to identify specific feelings, check their definition and track emotion on a daily log.
+                    Being able to identify feelings with more specificity allows people to regulate their emotions more effectively, and it's also an important skill to increase emotional intelligence.
+                </br></br>
+                <span class="technologies">Technologies:</span>
+                </br>
+                <span class="technologies">Django  HTML  CSS  JavaScript</span>
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-copy">
+                <h3 class="project-name">WORD TRACKER</h3>
+                <p class="project-description">A word tracker that can be used to identify speech delays in children that are learning to speak - built using Flask and SQL to dynamically update and store a list of words.
+                </br></br>
+                <span class="technologies">Technologies:</span>
+                </br>
+                <span class="technologies">Flask SQLite HTML</span>
+                </p>
+            </div>
+            <div class="project-images">
+                <img class="main-project-img" src="images/word-screenshot.png">
+                <div class="img-4"></div>
+                <div class="img-5"></div>
+                <div class="img-6"></div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="seo-images">
+                <a class="image-link" href="https://www.simons.ca/en" target="_blank"><img class="seo-image" src="images/logo1.png"></a>
+                <a class="image-link" href="https://verabradley.com/" target="_blank"><img class="seo-image" src="images/logo3.png"></a>
+                <a class="image-link" ref="https://www.himama.com/" target="_blank"><img class="seo-image" src="images/logo2.png"></a>
+                <a class="image-link" href="https://looka.com/" target="_blank"><img class="seo-image" src="images/logo4.png"></a>
+                <a class="image-link" href="https://www.lifetime.life/" target="_blank"><img class="seo-image" src="images/logo5.png"></a>
+                <a class="image-link" href="https://servicemasterrestore.ca/" target="_blank"><img class="seo-image" src="images/logo6.png"></a>
+            </div>
+            <div class="seo-copy">
+                <h3 class="project-name">SEO</h3>
+                <p class="project-description">I have 9 years of experience working with SEO across a variety of industries, from large ecommerce websites to small SaaS platforms. I acquired experience from many different perspectives, such as working on agencies, on the client-side, and also on my own entrepreneurial iniative. This is a sample of clients/employers I have worked with.</p>
+            </div>
+    </section>
+    <section>
+        <img class="waves-bottom" src="./images/contact-background.svg" id="contact">
+        <h2 class="sec-heading contact-heading">SAY HI(RED)!</h2>
+            <div class="contact-container">
+                <div class="contact-copy">
+                    <p> I love to develop and optimize websites with a focus both on search engines and user experience. </p>
+                    <p> Please check my LinkedIn and GitHub to know more about me and my work.</p>
+                    <p> Think I could be a great fit for your project? I would love to hear from you!</p>
+                    <a href="https://github.com/mathiastneves" class="fa-brands fa-github icons" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/mathias-neves/" class="fa-brands fa-linkedin icons" target="_blank"></a>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/mgebelnv"
+                method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Phone"required>
+                    <textarea placeholder="Message" name="message" class="message-form" required></textarea>
+                    <input class="submit-button" type="submit" value="Send">
+                </form>
+            </div>
+    </section>
+    <section id="talks">
+        <h2 class="sec-heading contact-heading">TALKS</h2>
+        <div class="talk-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ViJ9g6uyIHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qrHL1Kdl4Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <img class="waves-top" src="./images/waves.svg">
+</body>
+</html>
 
-<h2>Test</h2>
 
-<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
-<img src="./images/logo.svg">
