@@ -89,7 +89,7 @@ body{
 }
 
 .bio{
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     font-family: var(--sans);
     text-align: right;
     width: 50%;
@@ -104,6 +104,7 @@ body{
 
 .waves-top{
     padding-top: 8%;
+    padding-bottom: 0;
     width: 100%;
     margin: 0;
 }
@@ -111,6 +112,7 @@ body{
 .waves-bottom{
     width: 100%;
     margin: 0;
+    
 }
 
 .projects{
@@ -273,6 +275,9 @@ body{
     font-size: 50px;
     margin-right: 10px;
     margin-top: 50px;
+}
+
+.icon{
     text-decoration: none;
     color: var(--color-three);
 }
@@ -320,7 +325,78 @@ body{
 }
 
 .talk-videos{
+    margin-top: 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 768px) {
+.bio{
+    display: block;
+    text-align: center;
+    margin: 10% auto 0 auto;
+    font-size: 16px;
+}
+.heading{
+    margin: -30% auto 0 auto;
+}
+
+.intro-small{
+    font-size: 16px;
+}
+
+.blob{
+    display: block;
+    margin: 0 auto;
+}
+
+.sec-heading{
+    text-align:center;
+}
+.project{
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.project-images, .seo-images{
+    width: 100%;
+    order: 2;
+}
+
+.project-copy, .seo-copy{
+    width: 100%;
+    text-align: center;
+    height: 70vw;
+    order: 1;
+}
+
+.project-name{
+    margin-top: 20%;
+}
+
+.project-description{
+    width: 50%;
+    margin: 5% auto 0 auto;
+}
+
+.contact-container{
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.contact-copy{
+    width: 100%;
+}
+.contact-form{
+    padding-bottom: 120px;
+}
+
+.icons{
+    margin-top: 15px;
+    text-align: center;
+}
+
 }
