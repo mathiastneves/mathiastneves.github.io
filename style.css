@@ -274,12 +274,16 @@ body{
 .icons{
     font-size: 50px;
     margin-right: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .icon{
     text-decoration: none;
     color: var(--color-three);
+}
+
+.icon > img{
+    width: 50px;
 }
 
 .contact-container{
@@ -334,6 +338,10 @@ body{
 
 
 @media only screen and (max-width: 768px) {
+
+nav{
+    display: none;
+}
 .bio{
     display: block;
     text-align: center;
@@ -351,12 +359,14 @@ body{
 .blob{
     display: block;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .sec-heading{
     text-align:center;
 }
 .project{
+    margin-top: 50px;
     flex-wrap: wrap;
     margin-bottom: 0;
 }
@@ -369,17 +379,35 @@ body{
 .project-copy, .seo-copy{
     width: 100%;
     text-align: center;
-    height: 70vw;
     order: 1;
+    margin-bottom: 20px;
+    height: 100%;
+    background-image: url("./images/blob-haikei-mobile.svg");
 }
 
 .project-name{
-    margin-top: 20%;
+    margin-top: 0%;
+ 
 }
 
 .project-description{
-    width: 50%;
-    margin: 5% auto 0 auto;
+    width: 55%;
+    margin: 10% auto 0 auto;
+   
+}
+
+.seo-description{
+    margin-top: 10%;
+    width: 48%;
+ 
+}
+.seo-copy{
+    margin-top: 0;
+    height: 500px;
+}
+
+.seo-name{
+    margin-top: 12%;
 }
 
 .contact-container{
@@ -395,7 +423,7 @@ body{
 }
 
 .icons{
-    margin-top: 15px;
+    margin-top: 50px;
     text-align: center;
 }
 
