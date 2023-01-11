@@ -330,6 +330,7 @@ body{
 
 .talk-videos{
     margin-top: 20px;
+    padding: 25px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -427,4 +428,25 @@ nav{
     text-align: center;
 }
 
+}
+
+@media only screen and (max-width: 480px) {
+.project-copy, .seo-copy{
+    background-color: var(--color-four);
+    border-radius: 50px;
+    padding: 50px;
+    height: 100%;
+}
+
+.project-description{
+    width: 100%;
+}
+
+.seo-name{
+    margin-top: 0;
+}
+
+.contact-form{
+    width: 100%;
+}
 }
